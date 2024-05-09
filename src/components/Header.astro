@@ -1,0 +1,21 @@
+---
+import { LoginButton } from "./LoginButton";
+---
+
+<header class="flex justify-center items-center w-full sticky top-0 bg-white z-50 shadow-lg">
+  <div class="w-full flex justify-center gap-4">
+    <p>Niños</p>
+    <p>Mujer</p>
+    <p>Hombre</p>
+    <p>Inicio</p>
+  </div>
+  <div class="w-full py-4 flex justify-center">
+    <img class="w-auto h-24" src="/public/assets/logo_la-petite-alice.svg" alt="Logo">
+  </div>
+  <div class="w-full flex justify-center gap-4">
+  <p>Acerca</p>
+  <p>Tarjetas de regalo</p> |
+  <!-- Programación del botón -->
+  <LoginButton  client:visible/>
+  </div>
+</header>
